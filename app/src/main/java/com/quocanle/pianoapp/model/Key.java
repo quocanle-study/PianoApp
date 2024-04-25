@@ -11,4 +11,10 @@ public class Key {
         this.sound = sound;
         this.rect = rect;
     }
+
+    public Key(int sound, RectF rect, boolean down) {
+        this.sound = sound;
+        this.rect = rect;
+        this.down = down;
+    }
 }
